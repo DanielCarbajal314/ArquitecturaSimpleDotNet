@@ -1,0 +1,17 @@
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\bin\Debug\Infraestructura.Transformaciones.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\bin\Debug\Infraestructura.Transformaciones.pdb
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\bin\Debug\AutoMapper.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\bin\Debug\Dominio.Contextos.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\bin\Debug\Dominio.Entidades.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\bin\Debug\Servicios.Interfaces.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\bin\Debug\EntityFramework.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\bin\Debug\Dominio.Contextos.pdb
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\bin\Debug\Dominio.Contextos.dll.config
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\bin\Debug\Dominio.Entidades.pdb
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\bin\Debug\Servicios.Interfaces.pdb
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\bin\Debug\AutoMapper.xml
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\bin\Debug\EntityFramework.xml
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\obj\Debug\Infraestructura.Transformaciones.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\obj\Debug\Infraestructura.Transformaciones.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\obj\Debug\Infraestructura.Transformaciones.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Infraestructura.Transformaciones\obj\Debug\Infraestructura.Transformaciones.pdb

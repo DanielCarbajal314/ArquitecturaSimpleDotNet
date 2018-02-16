@@ -1,0 +1,13 @@
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Contextos\bin\Debug\Dominio.Contextos.dll.config
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Contextos\bin\Debug\Dominio.Contextos.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Contextos\bin\Debug\Dominio.Contextos.pdb
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Contextos\bin\Debug\Dominio.Entidades.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Contextos\bin\Debug\EntityFramework.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Contextos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Contextos\bin\Debug\Dominio.Entidades.pdb
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Contextos\bin\Debug\EntityFramework.xml
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Contextos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Contextos\obj\Debug\Dominio.Contextos.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Contextos\obj\Debug\Dominio.Contextos.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Contextos\obj\Debug\Dominio.Contextos.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Contextos\obj\Debug\Dominio.Contextos.pdb

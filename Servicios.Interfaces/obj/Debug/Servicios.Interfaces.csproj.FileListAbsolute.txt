@@ -1,0 +1,6 @@
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Servicios.Interfaces\bin\Debug\Servicios.Interfaces.pdb
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Servicios.Interfaces\obj\Debug\Servicios.Interfaces.pdb

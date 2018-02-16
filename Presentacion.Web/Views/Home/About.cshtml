@@ -1,0 +1,122 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>Mantenimiento De Ejemplo</h2>
+
+
+<div id="MantenimientoDePaquete">
+    <fieldset class="col-lg-12">
+        <legend>Registro De Paquete</legend>
+        <div class="form-group col-lg-6">
+            <div class="input-group">
+                <label for="Nombre">Nombre Del Remitente</label>
+                <input id="Nombre" type="text" class="form-control input-sm" data-bind="value: Remitente">
+            </div>
+            <div class="input-group">
+                <label for="Precio">Destino</label>
+                <input id="Precio" type="text" class="form-control input-sm" data-bind="value: Destino">
+            </div>
+            <div class="input-group">
+                <label for="Precio">Contenido</label>
+                <input id="Precio" type="text" class="form-control input-sm" data-bind="value: Contenido">
+            </div>
+            <div class="input-group col-lg-12">
+                <br>
+                <div class="col-lg-10 col-lg-offset-1 row">
+                    <button class="btn btn-primary btn_spec btn-close" data-bind="click: RegistrarPaquete"> Guardar </button>
+                    <button id="Cancelar" class="btn btn-primary btn_spec btn-close"> Cancelar </button>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <table id="TablaDePaquetes">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Remitente</th>
+                <th>Destino</th>
+                <th>Contenido</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+
+<script>
+
+    var formularioViewModel = new FormularioPaquete();
+    var formularioHTML = document.getElementById('MantenimientoDePaquete');
+    ko.applyBindings(formularioViewModel, formularioHTML);
+    formularioViewModel.TraerDatosDelServidor();
+
+    function FormularioPaquete() {
+        var self = this;
+        self.Remitente = ko.observable("");
+        self.Destino = ko.observable("");
+        self.Contenido = ko.observable("");
+        self.Paquetes = ko.observableArray([]);
+        self.TablaDePaquetes = $('#TablaDePaquetes').DataTable();
+
+        self.LimpiarFormulario = function () {
+            self.Remitente("");
+            self.Destino("");
+            self.Contenido("");
+        }
+
+        self.TraerDatosDelServidor = function () {
+            self.Paquetes([]);
+            $.get("../api/Paquetes/Listar", function (paquetesDelServidor) {
+                self.Paquetes(paquetesDelServidor);
+            });
+        }
+
+        self.AgregarPaqueteATabla = function (paquete) {
+            self.TablaDePaquetes.row.add(
+                [
+                    paquete.Id,
+                    paquete.Remitente,
+                    paquete.Destino,
+                    paquete.Contenido
+                ]
+            );
+        }
+
+        self.Paquetes.subscribe(function () {
+            self.TablaDePaquetes.clear();
+            self.Paquetes().forEach(function (paquete) {
+                self.AgregarPaqueteATabla(paquete);
+            })
+            self.TablaDePaquetes.draw()
+        })
+
+        self.RegistrarPaquete = function () {
+            var dataDelProducto = self.SacarDataDelFormulario();
+            Post("../api/Paquetes/Registrar", dataDelProducto)
+                .then(function (paquete) {
+                    self.Paquetes.push(paquete);
+                    self.LimpiarFormulario();
+                })
+        }
+
+        self.SacarDataDelFormulario = function () {
+            return {
+                Remitente: self.Remitente(),
+                Destino  : self.Destino(),
+                Contenido: self.Contenido()
+            }
+        }
+
+        return self;
+    }
+
+
+    function Post(url, data) {
+        return $.ajax({
+            url: url,
+            type: "POST",
+            data: JSON.stringify(data),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+        });
+    }
+</script>

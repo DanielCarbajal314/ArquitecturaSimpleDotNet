@@ -1,0 +1,6 @@
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Entidades\bin\Debug\Dominio.Entidades.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Entidades\bin\Debug\Dominio.Entidades.pdb
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Entidades\obj\Debug\Dominio.Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Entidades\obj\Debug\Dominio.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Entidades\obj\Debug\Dominio.Entidades.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Dominio.Entidades\obj\Debug\Dominio.Entidades.pdb
