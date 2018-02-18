@@ -16,9 +16,9 @@ namespace Presentacion.Web.Controllers.API
 
         IGestorDePaquetes _gestorDePaquetes;
 
-        public PaquetesController()
+        public PaquetesController(IGestorDePaquetes gestorDePaquetes)
         {
-            this._gestorDePaquetes = new GestorDePaquetes();
+            this._gestorDePaquetes = gestorDePaquetes;
         }
 
         [HttpPut]

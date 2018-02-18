@@ -46,6 +46,11 @@
     <Compile Include="Logistica\ManejoDePaquetes\Peticion\PaqueteParaActualizar.cs" />
     <Compile Include="Logistica\ManejoDePaquetes\Respuesta\PaqueteRegistrado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seguridad\Token\IGestorDeToken.cs" />
+    <Compile Include="Seguridad\User\IGestorDeUsuarios.cs" />
+    <Compile Include="Seguridad\User\Peticion\IntentoDeLogin.cs" />
+    <Compile Include="Seguridad\User\Respuesta\PermisoDeSeguridad.cs" />
+    <Compile Include="Seguridad\User\Respuesta\Usuario.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

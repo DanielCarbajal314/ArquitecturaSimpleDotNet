@@ -30,3 +30,7 @@ C:\Users\Daniel\Source\Repos\ArquitecturaBase\Servicios.PruebasUnitarias\obj\Deb
 C:\Users\Daniel\Source\Repos\ArquitecturaBase\Servicios.PruebasUnitarias\obj\Debug\Servicios.PruebasUnitarias.csproj.CoreCompileInputs.cache
 C:\Users\Daniel\Source\Repos\ArquitecturaBase\Servicios.PruebasUnitarias\obj\Debug\Servicios.PruebasUnitarias.dll
 C:\Users\Daniel\Source\Repos\ArquitecturaBase\Servicios.PruebasUnitarias\obj\Debug\Servicios.PruebasUnitarias.pdb
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Servicios.PruebasUnitarias\bin\Debug\JWT.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Servicios.PruebasUnitarias\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Servicios.PruebasUnitarias\bin\Debug\JWT.xml
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Servicios.PruebasUnitarias\bin\Debug\Newtonsoft.Json.xml

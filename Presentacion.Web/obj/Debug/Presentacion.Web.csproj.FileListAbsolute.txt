@@ -64,3 +64,14 @@ C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\Servicios.Int
 C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\AutoMapper.xml
 C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\EntityFramework.xml
 C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\JWT.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\JWT.xml
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\Autofac.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\Autofac.Integration.WebApi.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\Infraestructura.InyeccionDeDependencias.dll
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\Infraestructura.InyeccionDeDependencias.pdb
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\Infraestructura.InyeccionDeDependencias.dll.config
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\Autofac.xml
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\Daniel\Source\Repos\ArquitecturaBase\Presentacion.Web\bin\Autofac.Integration.WebApi.xml
